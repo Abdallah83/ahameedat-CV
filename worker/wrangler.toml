@@ -1,0 +1,10 @@
+name = "ahameedat-visits"
+main = "index.js"
+compatibility_date = "2026-06-17"
+
+# When you create a KV namespace via `wrangler kv:namespace create` the CLI
+# will print an id. Paste that id below or leave blank and bind via the
+# Cloudflare dashboard later.
+kv_namespaces = [
+  { binding = "VISITS_KV", id = "REPLACE_WITH_KV_ID" }
+]
